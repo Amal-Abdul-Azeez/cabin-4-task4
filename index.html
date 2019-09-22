@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+   
+<html>
+        <link rel="stylesheet" href="styl.css">
+    
+<title>GAME TIME</title>
+
+ <head><meta name="viewport" content="width=device-width, initial-scale=1">
+<header class="glow">
+  <h1><b>ROLL     DICE</b></h1>
+</header>
+</head> 
+
+
+
+<body>
+
+    
+     <img class="center" src="dicegif.gif" alt="dice image" height="150px" width="25px"> 
+
+
+<div class="one" >   
+   <section class="one" id="pl1">
+       <ul>
+          <li class="one"><b> PLAYER ONE</b></li>     
+          <li ><b>TOTAL SCORE</b></li>
+          <li id="t1">0</li>
+          <li><B>CURRENT SCORE</B></li>
+        <li id="c1"><b>0</b></li>
+        <button class="one" type="button" onclick="t_score1()" > <b>ROLL ON </b></button>
+    </ul>
+</section>
+</div>
+
+
+
+<div class="two" >
+    <section class="two" id="pl2">
+         <ul>
+            <li class="one"><b> PLAYER TWO</b></li>   
+            <li id="ts1" ><b>TOTAL SCORE</b></li>
+            <li id="t2">0</li>
+            <li id="cs1"><B>CURRENT SCORE</B></li>
+            <li id="c2"><b>0</b></li>
+            <button class="one" type="button" onclick="t_score2()" ><b>ROLL ON</b></button>
+        </ul>
+    </section>
+</div>
+<div class="three"><b> vs </b></div>    
+  
+<div class="four"><b><button class="b"  id="s" onclick="start()">START</button><button class="b" type="button" onclick="hold()">HOLD</button ></div>
+    <script src="math.js" ></script>   
+         
+    <script src="main.js"></script>
+
+</body>
+
+
+
+
+
+</html>
